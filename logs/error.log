@@ -30991,3 +30991,14 @@ Stack Trace:
 #5 {main}
 
 
+2017-06-09 13:46:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-06-09 13:46:56 Error: [Cake\Core\Exception\Exception] Config file "constants.php" did not return an array
+Stack Trace:
+#0 /var/www/html/angular2/AngularApi/vendor/cakephp/cakephp/src/Core/Configure.php(301): Cake\Core\Configure\Engine\PhpConfig->read('constants')
+#1 /var/www/html/angular2/AngularApi/config/bootstrap.php(223): Cake\Core\Configure::load('constants')
+#2 /var/www/html/angular2/AngularApi/vendor/cakephp/cakephp/src/Http/BaseApplication.php(61): require_once('/var/www/html/a...')
+#3 /var/www/html/angular2/AngularApi/vendor/cakephp/cakephp/src/Http/Server.php(74): Cake\Http\BaseApplication->bootstrap()
+#4 /var/www/html/angular2/AngularApi/webroot/index.php(37): Cake\Http\Server->run()
+#5 {main}
+
+
