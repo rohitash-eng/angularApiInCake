@@ -1,0 +1,633 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-09-13 05:00+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/OrdersController.php:58;87
+msgid "The order has been saved."
+msgstr ""
+
+#: Controller/OrdersController.php:62;91
+msgid "The order could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/OrdersController.php:113
+msgid "The order has been deleted."
+msgstr ""
+
+#: Controller/OrdersController.php:115
+msgid "The order could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/SpecialitiesController.php:109
+msgid "The speciality has been saved."
+msgstr ""
+
+#: Controller/Admin/SpecialitiesController.php:113
+msgid "The speciality could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/SpecialitiesController.php:132
+msgid "The speciality has been deleted."
+msgstr ""
+
+#: Controller/Admin/SpecialitiesController.php:134
+msgid "The speciality could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:51
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:112;140
+#: Controller/Admin/UsersController_org.php:55;81
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:116;144
+#: Controller/Admin/UsersController_org.php:59;85
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:165
+#: Controller/Admin/UsersController_org.php:104
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:167
+#: Controller/Admin/UsersController_org.php:106
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:157
+#: Model/Behavior/StripeBehavior.php:138
+msgid "Customer Id or Card is required"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:183
+#: Model/Behavior/StripeBehavior.php:164
+msgid "Charge Id is required"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:206;234;255
+#: Model/Behavior/StripeBehavior.php:186;213;233
+msgid "Charge Id is not provided"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:210;480
+#: Model/Behavior/StripeBehavior.php:190;452
+msgid "No data is provided to updates the card"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:292;710;831
+#: Model/Behavior/StripeBehavior.php:270;663;770
+msgid "Data is empty or is not an array"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:310;333;360;406;444;472;504;531;563;590;618;650;678;914
+#: Model/Behavior/StripeBehavior.php:287;309;335;378;416;444;476;503;526;553;581;613;641;851
+msgid "Customer Id is not provided"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:337
+#: Model/Behavior/StripeBehavior.php:313
+msgid "Update fields are empty"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:410
+#: Model/Behavior/StripeBehavior.php:382
+msgid "Card data is not provided"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:448;476;508
+#: Model/Behavior/StripeBehavior.php:420;448;480
+msgid "Card Id is not provided"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:567
+#: Model/Behavior/StripeBehavior.php:530
+msgid "Subscription data is not provided"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:594;622;654
+#: Model/Behavior/StripeBehavior.php:557;585;617
+msgid "Subscription Id is not provided"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:626
+#: Model/Behavior/StripeBehavior.php:589
+msgid "No data is provided to update the subscription"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:733;754;780
+#: Model/Behavior/StripeBehavior.php:685;706;732
+msgid "This is required"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:758
+#: Model/Behavior/StripeBehavior.php:710
+msgid "No data is provided to updates the plan"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:854;875
+#: Model/Behavior/StripeBehavior.php:792;813
+msgid "Coupon Id is required"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:940
+#: Model/Behavior/StripeBehavior.php:872
+msgid "Event Id is required"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:992
+#: Model/Behavior/StripeBehavior.php:912
+msgid "Request method is missing"
+msgstr ""
+
+#: Controller/Component/StripeComponent.php:995
+#: Model/Behavior/StripeBehavior.php:915
+msgid "Request Data is not provided"
+msgstr ""
+
+#: Model/Table/UsersTable.php:129
+msgid "First_name"
+msgstr "First name cannot be too long."
+
+#: Template/Admin/Specialities/index.ctp:2;5
+msgid "Specialities"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:3
+#: Template/Admin/Users/edit.ctp:3
+#: Template/Admin/Users/index.ctp:3;23
+#: Template/Admin/Users/view.ctp:3;95
+msgid "Actions"
+msgstr "this is"
+
+#: Template/Admin/Users/add.ctp:4
+#: Template/Admin/Users/edit.ctp:10
+#: Template/Admin/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:5
+#: Template/Admin/Users/edit.ctp:11
+#: Template/Admin/Users/index.ctp:5
+#: Template/Admin/Users/view.ctp:8
+msgid "List User Logs"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:6
+#: Template/Admin/Users/edit.ctp:12
+#: Template/Admin/Users/index.ctp:6
+#: Template/Admin/Users/view.ctp:9
+msgid "New User Log"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:12
+msgid "Add User"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:30
+#: Template/Admin/Users/edit.ctp:36
+#: View/Helper/FormHelper.php:1807
+msgid "Submit"
+msgstr ""
+
+#: Template/Admin/Users/edit.ctp:5
+#: Template/Admin/Users/index.ctp:42
+#: Template/Admin/Users/view.ctp:108
+msgid "Delete"
+msgstr ""
+
+#: Template/Admin/Users/edit.ctp:7
+#: Template/Admin/Users/index.ctp:42
+#: Template/Admin/Users/view.ctp:5;108
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Admin/Users/edit.ctp:18
+#: Template/Admin/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: Template/Admin/Users/index.ctp:4
+#: Template/Admin/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: Template/Admin/Users/index.ctp:10
+msgid "Users"
+msgstr ""
+
+#: Template/Admin/Users/index.ctp:40
+#: Template/Admin/Users/view.ctp:106
+msgid "View"
+msgstr ""
+
+#: Template/Admin/Users/index.ctp:41
+#: Template/Admin/Users/view.ctp:107
+msgid "Edit"
+msgstr ""
+
+#: Template/Admin/Users/index.ctp:51
+msgid "previous"
+msgstr ""
+
+#: Template/Admin/Users/index.ctp:53
+msgid "next"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:16
+msgid "Title"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:20
+msgid "Fname"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:24
+msgid "Lname"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:28
+msgid "Email"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:32
+msgid "Username"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:36
+msgid "Password"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:40
+msgid "Photo"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:44
+msgid "Ssn No"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:48
+msgid "Gender"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:52;89
+msgid "Id"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:56
+msgid "User Type Id"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:60
+msgid "Provider Type Id"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:64
+msgid "Dob"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:68;94
+msgid "Created"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:72
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:76
+msgid "Terms Of Use"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:77
+msgid "Yes"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:77
+msgid "No"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:81
+msgid "Newsletter Subsciption Status"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:85
+msgid "Related User Logs"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:90
+msgid "User Id"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:91
+msgid "Token Key"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:92
+msgid "Token Plain Key"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:93
+msgid "Loginstatus"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Error/error400.ctp:38
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:461
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:154
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:158
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:251
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:253
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154;332
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155;333
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156;334
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:157;335
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171;346
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172;347
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:173;348
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:174;349
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47;126;316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51;129;319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57;132;322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59;135;325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64;138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68;141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72;144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Network/Response.php:1451
+msgid "The requested file was not found"
+msgstr ""
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr ""
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:894
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:1712
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:961
+msgid "New %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:964
+msgid "Edit %s"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:781
+msgid "Home"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "May"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "December"
+msgstr ""
+

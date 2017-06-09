@@ -1,0 +1,86 @@
+/********** Colors **********/
+
+.red {
+	background: #ff7878;
+}
+
+.green {
+	background: #8ae683;
+}
+.purple {
+	background: #b186ba;
+}
+.blue {
+	background: #00bac2;
+}
+
+.sky-blue {
+	background: #63a5d5;
+}
+
+.yellow {
+	background: #ffb753;
+}
+
+/********** Colors **********/
+
+
+/********** Button Colors **********/
+
+.blue-btn {
+	background: #00959b;
+	border-color: #00959b !important;
+}
+.white-btn {
+	background: transparent;
+	border-color: #fff !important;
+}
+.yellow-btn {
+	background: #ffb753;
+	border-color: #ffb753 !important;
+}
+.red-btn {
+	background: #ff7878;
+	border-color: #ff7878 !important;
+}
+.purple-btn {
+	background: #b186ba;
+	border-color: #b186ba !important;
+}
+
+/********** Button Colors **********/
+
+/********** Navbar Colors **********/
+
+.yellow-nav .navbar-nav > li > a:focus, .yellow-nav .navbar-nav > li > a:hover {
+    background: #ffb753;
+}
+.blue-nav .navbar-nav > li > a:focus, .blue-nav .navbar-nav > li > a:hover {
+    background: #63a5d4;
+}
+.red-nav .navbar-nav > li > a:focus, .red-nav .navbar-nav > li > a:hover {
+    background: #ff7878;
+}
+.purple-nav .navbar-nav > li > a:focus, .purple-nav .navbar-nav > li > a:hover {
+    background: #b186ba;
+}
+.green-nav .navbar-nav > li > a:focus, .green-nav .navbar-nav > li > a:hover {
+    background: #70d37c;
+}
+.grey-nav .navbar-nav > li > a:focus, .grey-nav .navbar-nav > li > a:hover, .grey-nav .navbar-nav > li > a.active {
+    background: #ffb753;
+    color: #fff;
+}
+.grey-nav .navbar-nav > li > a {
+    color: #898a8a;
+    text-transform: capitalize;
+    padding: 11px;
+}
+.grey-nav {
+	background: #f9f9f9;
+	border-bottom: 3px solid #ffc87b !important;
+	padding: 9px 0 9px;
+	margin-top: 20px;
+}
+
+/********** Navbar Colors **********/

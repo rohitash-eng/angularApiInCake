@@ -1,0 +1,86 @@
+@charset "utf-8";
+@media (max-width:767px) {
+	.main-heading {
+	    padding: 20px 0 10px 0;
+	    margin-bottom: 20px;
+	}
+	.provider-profile-edit h3.semibold-heading.mt-60 {
+		margin-top: 25px;
+	}
+	.provider-profile-edit h3.semibold-heading.mb-50 {
+		margin-bottom: 25px;
+	}
+	.comment-box .comment-date.mb-20 {
+		margin-bottom: 5px;
+	}
+	.footer {
+	    padding: 18px 0px 0;
+	}
+	.comment-box {
+	    margin-bottom: 25px;
+	}
+	.social-strip ul li a::before {
+	    font-size: 24px;
+	}
+	.footer .footer-logo {
+		width: 150px;
+	}
+	.main-content {
+	    padding: 10px 0px 40px;
+	}
+	.main-content h2 {
+	    font-size: 24px;
+	}
+	.single-input {
+	    width: 92% !important;
+	}
+	.plan {
+	    margin-bottom: 20px;
+	}
+	.npi-details .col-sm-6:nth-child(2n+1) {
+	    width: 100%;
+	}
+	.provider-profile-left img {
+	    width: 85px;
+	    display: inline-block;
+	    vertical-align: top;
+	}
+	.provider-profile-left figcaption {
+		width: calc(100% - 85px;);
+		display: inline-block;
+		padding-left: 20px;
+		text-align: left;
+	}
+	.provider-profile-left figcaption .star-rating.mt-20 {
+		margin-top: 0px !important;
+	}
+	.provider-heading p.text-right {
+		text-align: left;
+		padding-top: 0px;
+	}
+	.comment-box .star-rating {
+		padding: 5px 0px 3px;
+	}
+	.provider-profile-left {
+	    margin: 20px 0px 0 0;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.dob .dob-year {
+	    width: 35%;
+	}
+}
+
+@media (max-width: 479px) {
+	.provider-profile-edit h3 small.semibold-heading {
+	    display: block;
+	}
+	.provider-heading h3 {
+	    font-size: 20px;
+	}
+	.form-inputs h3 {
+	    font-size: 22px;
+	    margin-bottom: 20px;
+	}
+}

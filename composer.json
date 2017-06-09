@@ -1,0 +1,51 @@
+{
+    "name": "cakephp/app",
+    "description": "CakePHP skeleton app",
+    "homepage": "http://cakephp.org",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": "~3.3",
+        "mobiledetect/mobiledetectlib": "2.*",
+        "cakephp/migrations": "~1.0",
+        "cakephp/plugin-installer": "*",
+         "aquaio/aqua-io": "*",
+         "snelg/cakephp-3-cas": "~1.0",
+         "pokitdok/pokitdok-php": "*",
+        "silinternational/zoom-php-client": "^0.2.4",
+        "cakephp/acl": "^0.2.2",
+        "mpdf/mpdf": "^6.1",
+	"fabulator/fitbit": "0.2.0",
+        "mrferos/hl7-parser": "^1.0"
+    },
+    "require-dev": {
+        "psy/psysh": "@stable",
+        "cakephp/debug_kit": "~3.2",
+        "cakephp/bake": "~1.1"
+    },
+    "suggest": {
+        "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
+        "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP."
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        },
+        "files": ["vendor/aws/aws-autoloader.php", "vendor/fabulator/fitbit/lib/Fabulator/Fitbit.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+        
+    },
+    "scripts": {
+        "post-install-cmd": "App\\Console\\Installer::postInstall",
+        "post-create-project-cmd": "App\\Console\\Installer::postInstall",
+        "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
